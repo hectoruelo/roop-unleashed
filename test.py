@@ -3,10 +3,10 @@ import shutil
 import time
 
 # Directorio de origen
-directorio_origen = '/ruta/del/directorio/origen'
+directorio_origen = '/content/roop-unleashed/output'
 
 # Directorio de destino
-directorio_destino = '/ruta/del/directorio/destino'
+directorio_destino = '/content/drive/MyDrive/sd/output'
 
 # Palabra clave a buscar en el nombre del archivo
 palabra_clave = 'temp'
