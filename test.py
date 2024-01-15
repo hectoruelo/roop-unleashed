@@ -17,7 +17,7 @@ while True:
 
     for archivo in archivos:
         # Verificar si la palabra clave está presente en el nombre del archivo
-        if palabra_clave in archivo:
+        if palabra_clave not in archivo:
             # Construir las rutas completas
             ruta_origen = os.path.join(directorio_origen, archivo)
             ruta_destino = os.path.join(directorio_destino, archivo)
