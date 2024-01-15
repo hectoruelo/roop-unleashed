@@ -30,5 +30,5 @@ while True:
                 print(f'Error al mover el archivo "{archivo}". Error: {e}')
 
     # Esperar un intervalo antes de volver a revisar
-    tiempo_espera = 300  # 5 minutos
+    tiempo_espera = 60  # 1 minuto
     time.sleep(tiempo_espera)
